@@ -1,7 +1,11 @@
 let stage = 0;
 
 function handleYes() {
-    document.getElementById("content").innerHTML = "<img src='milkandmocha-kissing.gif' alt='Cute bears'><p>Yay! You're my waifu now! 🥰🐻💖</p>";
+    let font = "Dancing Script";
+    document.getElementById("content").innerHTML = "<img src='milkandmocha-kissing.gif' alt='Cute bears'> <img src='couple-love.gif' alt= 'Cute bears'>  <p id = 'question'> You are my waifu now🥰🐻💖";
+    document.getElementById("question").style.fontFamily = "font-family: 'Dancing Script', cursive";
+
+    
 }
 
 function handleNo() {
