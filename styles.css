@@ -1,0 +1,47 @@
+body {
+    background-color: #d2a679;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#question{
+    color: white;
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yes {
+    background-color: rgb(0, 165, 0);
+    color: white;
+    padding: 5px 25px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+#no {
+    background-color: rgb(228, 0, 0);
+    color: white;
+    padding: 5px 30px;
+}
+
+.yes:hover {
+    background-color: rgba(0, 202, 0, 0.514);
+}
+
+.no:hover {
+    background-color: rgba(255, 0, 0, 0.705);
+}
